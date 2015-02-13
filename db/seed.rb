@@ -20,7 +20,7 @@ class Seeder
   end
 
   def self.order
-    Order.create(payment: "Paid", contact_info: "")
+    Order.create(paid: true, contact_info: "")
   end
 
   def self.product

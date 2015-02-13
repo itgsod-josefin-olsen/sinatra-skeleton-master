@@ -2,7 +2,7 @@ class Order
   include DataMapper::Resource
 
   property :id, Serial
-  property :payment, String
+  property :paid, Boolean
   property :contactinfo, Text
   property :date, String
   property :time, String
