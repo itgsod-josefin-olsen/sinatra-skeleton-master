@@ -20,7 +20,7 @@ class Seeder
   end
 
   def self.order
-    Order.create(payment: "Paid", contact_info: )
+    Order.create(payment: "Paid", contact_info: "")
   end
 
   def self.product
@@ -29,7 +29,7 @@ class Seeder
   end
 
   def self.status
-    Status.create(name: "Delievered")
+    Status.create(name: "Levererad")
     Status.create(name: "Bakas")
   end
 
