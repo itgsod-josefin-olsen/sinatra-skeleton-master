@@ -1,8 +1,8 @@
 class App < Sinatra::Base
   enable :sessions
 
-  get '/' do
-    db = SQLite3::Database.new('db/Gymnasiearbete-Fikabudet.sqlite')
+  get '/' do #om det kommer en förfrågan efter resursen "/"
+
     slim :index
   end
 
