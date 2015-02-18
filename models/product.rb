@@ -6,5 +6,5 @@ class Product
   property :name, String
   property :description, Text
 
-  belongs_to :order
+  has n, :order
 end

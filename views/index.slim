@@ -1,1 +1,16 @@
-h1 Sup
+h1 This is fucking shit...
+
+- for user in @users
+  h1= user.username
+
+- for product in @products
+  h1= product.name
+
+- for status in @statuses
+  h1= status.name
+
+- for line_item in @line_items
+  h1= line_item.product
+
+- for order in @orders
+  h1= order.delivery_info

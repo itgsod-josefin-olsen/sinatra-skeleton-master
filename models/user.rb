@@ -4,18 +4,8 @@ class User
   property :id, Serial
   property :username, String
   property :password, String
-  property :contactinfo, Text
+  property :contact_info, Text
 
-  belongs_to :order
-
-  def initialize(first_name, last_name)
-    @first_name = first_name
-    @last_name = last_name
-  end
-
-  def name
-    "#{@first_name} #{@last_name}"
-  end
-
+  has n, :orders
 
 end

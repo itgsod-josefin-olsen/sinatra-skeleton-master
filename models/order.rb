@@ -3,13 +3,15 @@ class Order
 
   property :id, Serial
   property :paid, Boolean
-  property :contactinfo, Text
-  property :date, String
-  property :time, String
+  property :delivery_info, Text
+  property :delivered, Boolean
+  property :delivered_at, DateTime
+  property :created_at, DateTime
+  property :due_at, DateTime
+
+  belongs_to :user
 
   has n, :products
   has n, :statuses
-  has n, :users
-  has n, :deliveries
 
 end

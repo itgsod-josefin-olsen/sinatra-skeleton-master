@@ -1,4 +1,4 @@
-class Lineitem
+class LineItem
   include DataMapper::Resource
 
   property :order_id, Serial
@@ -7,6 +7,4 @@ class Lineitem
   property :product, String
 
   belongs_to :order
-  belongs_to :delivery
-
 end
