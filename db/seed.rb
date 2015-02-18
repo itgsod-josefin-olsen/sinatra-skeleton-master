@@ -14,8 +14,8 @@ class Seeder
   end
 
   def self.order
-    Order.create(paid: true, delivery_info: "bajs", delivered: "True", delivered_at: "Grens väg 12",
-                 created_at: "12.00 2/11-14", due_at: "13.00 3/11-14")
+    Order.create(paid: true, delivery_info: "bajs", delivered: true, delivered_at: "Grens väg 12",
+                 created_at: "12.00 2/11-14", due_at: "13.00 3/11-14", user_id: 1, product_id: 1)
   end
 
   def self.product

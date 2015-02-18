@@ -3,7 +3,7 @@ class Order
 
   property :id, Serial
   property :paid, Boolean
-  property :delivery_info, Text
+  property :delivery_info, String
   property :delivered, Boolean
   property :delivered_at, DateTime
   property :created_at, DateTime
