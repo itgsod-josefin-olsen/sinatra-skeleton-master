@@ -9,4 +9,5 @@ class App < Sinatra::Base
     @orders = Order.all
     slim :index
   end
+
 end
