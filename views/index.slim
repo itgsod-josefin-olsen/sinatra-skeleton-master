@@ -1,18 +1,11 @@
 h1 Fikabudet
 
-- for user in @users
-  h1= user.username
-
-- for product in @products
-  h1= product.name
-
-- for status in @statuses
-  h1= status.name
-
-- for line_item in @line_items
-  h1= line_item.product
-
-- for order in @orders
-  h1= order.delivery_info
-
-
+- if @user
+  form action='/logout' method='post'
+    span Logged in as #{@user.username}
+    button type='submit' Logout
+- else
+  form action='/login' method='post'
+    input type='text' name='username' placeholder='username'
+    input type='password' name='password' placeholder='password'
+    button type='submit' method='post' Login

@@ -3,7 +3,7 @@ class User
 
   property :id, Serial
   property :username, String
-  property :password, String
+  property :password, BCryptHash
   property :contact_info, Text
 
   has n, :orders
