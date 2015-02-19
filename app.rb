@@ -12,7 +12,7 @@ class App < Sinatra::Base
 
   before %r{^(?!/login$)} do
     @user = User.get(session[:user].to_i) if session[:user]
-    redirect '/login' unless @user
+    # redirect '/login' unless @user
   end
 
   get '/login' do
@@ -29,10 +29,24 @@ class App < Sinatra::Base
     end
   end
 
-  post '/logout' do
-    session.clear
-    redirect 'login/'
+  post '/create_new_user' do
+    User.create(username: params['username'], password: params['password'], first_name: params['first_name'], last_name: params['last_name'], adress: params['adress'],
+                   post_number: params['post_number'])
+  end
+
+  # post '/logout' do
+  #   session.clear
+  #   redirect 'login/'
+  # end
+
+  get '/user_create' do
+    slim :user_create
+  end
+
+  post '/user_create' do
+    slim :user_create
   end
 
 
 end
+

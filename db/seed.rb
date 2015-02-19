@@ -29,6 +29,7 @@ class Seeder
   end
 
   def self.user
-    User.create(username: "Joggiz", password: "bananer", contact_info: "Shit")
+    User.create(username: "Joggiz", password: "bananer", first_name: "Gina", last_name:"Johansson", adress: "Grens väg 12",
+                post_number: "14763")
   end
 end
