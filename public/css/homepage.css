@@ -1,0 +1,76 @@
+body {
+    background-color: white;
+}
+
+h1 {
+    color: white;
+    font-family: cursive;
+    font-size: 55px;
+    padding-left: 30px;
+}
+
+#header {
+    line-height:40px;
+    background-color: #45276C;
+    height:100px;
+    width:1230px;
+    padding:10px;
+}
+
+#login {
+    float: right;
+    position: static;
+    bottom: 400px;
+
+}
+
+#create {
+    float: right;
+    margin-top: 10px;
+
+}
+
+#meny {
+    background-color: #321952;
+    height:18px;
+    width:1230px;
+    margin-bottom: 100px;
+    padding:10px;
+}
+
+#p1 {
+    padding-left: 30px;
+    padding-bottom: 30px;
+    color: white;
+    font-family: times new roman;
+}
+
+#welcome {
+    position: relative;
+    bottom:80px;
+    background-color: #45276C;
+    height:75px;
+    width:1175px;
+    padding:10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#p2 {
+    padding-left: 450px;
+    padding-bottom: 10px;
+    color: white;
+    font-size: 55px;
+    font-family: times new roman;
+}
+
+#text {
+    padding-left: 490px;
+    position: absolute;
+
+    top: 320px;
+    color: black;
+    font-size: 20px;
+    font-family: times new roman;
+}
+
