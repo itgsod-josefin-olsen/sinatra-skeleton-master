@@ -34,10 +34,10 @@ class App < Sinatra::Base
                    post_number: params['post_number'])
   end
 
-  # post '/logout' do
-  #   session.clear
-  #   redirect 'login/'
-  # end
+  post '/logout' do
+    session.clear
+    redirect '/'
+  end
 
   get '/user_create' do
     slim :user_create
