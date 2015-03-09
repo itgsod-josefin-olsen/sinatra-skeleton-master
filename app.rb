@@ -48,5 +48,18 @@ class App < Sinatra::Base
   end
 
 
+  get '/order' do
+    slim :order
+  end
+
+  get '/about' do
+    slim :about
+  end
+
+  get '/contact' do
+    slim :contact
+  end
+
+
 end
 

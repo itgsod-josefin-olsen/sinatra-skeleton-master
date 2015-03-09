@@ -17,16 +17,21 @@ h1 {
     padding:10px;
 }
 
+#checkout {
+    font-family: times new roman;
+    text-decoration: none;
+    float: right;
+}
+
 #login {
     float: right;
-    position: static;
-    bottom: 400px;
+    margin-top: 60px;
 
 }
 
 #create {
     float: right;
-    margin-top: 10px;
+    margin-top: 60px;
 
 }
 
@@ -34,20 +39,22 @@ h1 {
     background-color: #321952;
     height:18px;
     width:1230px;
-    margin-bottom: 100px;
     padding:10px;
+
+
 }
 
-#p1 {
+a {
     padding-left: 30px;
     padding-bottom: 30px;
     color: white;
     font-family: times new roman;
+    text-decoration: none;
 }
 
 #welcome {
     position: relative;
-    bottom:80px;
+    top: 50px;
     background-color: #45276C;
     height:75px;
     width:1175px;
