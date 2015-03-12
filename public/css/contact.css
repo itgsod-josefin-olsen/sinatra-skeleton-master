@@ -10,9 +10,10 @@ h1 {
 }
 
 #checkout {
-    font-family: times new roman;
     text-decoration: none;
     float: right;
+    padding-right: 10%;
+    padding-top: 40px;
 }
 
 #header {
