@@ -8,7 +8,8 @@ html
 
 
 #header
-    h1 Fikabudet
+    p Fikabudet
+
     #login
       - if @user
         form action='/logout' method='post'
@@ -22,6 +23,10 @@ html
 
     #create
       a href="/user_create" Register
+
+    #checkout
+      a href='/checkout'
+        img src="/pics/white-checkout-256.png" style='width:30px;height:30px;' &nbsp;&nbsp;Till kassan
 
 #meny
   #a
@@ -42,8 +47,3 @@ html
     p 2. Lägg till det och gå till kassan.
     p 3. Slutför beställningen.
     p 4. Du får det hemkört till dig eller dina vänner.
-
-
-
-
-

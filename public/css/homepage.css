@@ -4,28 +4,31 @@ body {
 
 #login {
     float: right;
-    margin-top: 0px;
-    margin-right: 10px;
 }
 
 #create {
     float: right;
-    margin-bottom: 100px;
-    margin-left: 1px;
 }
 
-h1 {
+p {
     color: white;
     font-family: cursive;
     font-size: 55px;
     padding-left: 30px;
+    float: left;
 }
 
 #header {
     background-color: #45276C;
     line-height: 40px;
     width:1240px;
+    height: 110px;
     padding:10px;
+}
+
+#checkout {
+    text-decoration: none;
+    float: right;
 }
 
 #meny {
@@ -33,8 +36,6 @@ h1 {
     height:18px;
     width:1240px;
     padding:10px;
-
-
 }
 
 a {
@@ -65,12 +66,11 @@ a {
 }
 
 #text {
-    padding-left: 490px;
     position: absolute;
-
-    top: 320px;
     color: black;
     font-size: 20px;
     font-family: times new roman;
+    padding-bottom: 200px;
+    float: none;
 }
 
