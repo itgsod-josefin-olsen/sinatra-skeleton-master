@@ -60,6 +60,17 @@ class App < Sinatra::Base
     slim :contact
   end
 
+  get '/cake' do
+    slim :cake
+  end
+
+  get '/fikabread' do
+    slim :fikabread
+  end
+
+  get '/muffin' do
+    slim :muffin
+  end
 
 end
 
