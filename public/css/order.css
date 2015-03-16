@@ -2,11 +2,12 @@ body {
     background-color: white;
 }
 
-h1 {
+p {
     color: white;
     font-family: cursive;
     font-size: 55px;
     padding-left: 30px;
+    margin-top: 30px;
 }
 
 #checkout {
@@ -42,4 +43,39 @@ a {
     text-decoration: none;
 }
 
+#container {
+    position: relative;
+    top: 50px;
+    background-color: #45276C;
+    height:75px;
+    width: 910px;
+    padding:10px;
+    margin-left: 255px;
+}
+
+#meny2 {
+    position: relative;
+    top: 50px;
+    background-color: #45276C;
+    height: 200px;
+    width: 160px;
+    float: left;
+    margin-left: 10px;
+}
+
+#p {
+    color: white;
+    font-family: times new roman;
+    font-size: 10px;
+    padding-top: 20px;
+}
+
+#p2 {
+    color: white;
+    font-family: times new roman;
+    font-size: 40px;
+    padding-left: 350px;
+    padding-top: 10px;
+
+}
 

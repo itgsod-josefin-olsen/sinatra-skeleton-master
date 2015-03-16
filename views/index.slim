@@ -6,27 +6,22 @@ html
     title Fikabudet
   body
 
-#checkout
-    a href='/checkout' Till kassan
-
-#login
-  - if @user
-    form action='/logout' method='post'
-      span Logged in as #{@user.username}
-      button type='submit' Logout
-  - else
-    form action='/login' method='post'
-      input type='text' name='username' placeholder='username'
-      input type='password' name='password' placeholder='password'
-      button type='submit' method='post' Login
-
-
-#create
-  form action='/user_create' method='post'
-  button type='submit' method='post' Create new
 
 #header
     h1 Fikabudet
+    #login
+      - if @user
+        form action='/logout' method='post'
+          span Logged in as #{@user.username}
+          button type='submit' Logout
+      - else
+        form action='/login' method='post'
+          input type='text' name='username' placeholder='Username'
+          input type='password' name='password' placeholder='Password'
+          button type='submit' method='post' Login
+
+    #create
+      a href="/user_create" Register
 
 #meny
   #a

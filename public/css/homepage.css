@@ -2,6 +2,18 @@ body {
     background-color: white;
 }
 
+#login {
+    float: right;
+    margin-top: 0px;
+    margin-right: 10px;
+}
+
+#create {
+    float: right;
+    margin-bottom: 100px;
+    margin-left: 1px;
+}
+
 h1 {
     color: white;
     font-family: cursive;
@@ -10,35 +22,16 @@ h1 {
 }
 
 #header {
-    line-height:40px;
     background-color: #45276C;
-    height:100px;
-    width:1230px;
+    line-height: 40px;
+    width:1240px;
     padding:10px;
-}
-
-#checkout {
-    font-family: times new roman;
-    text-decoration: none;
-    float: right;
-}
-
-#login {
-    float: right;
-    margin-top: 60px;
-
-}
-
-#create {
-    float: right;
-    margin-top: 60px;
-
 }
 
 #meny {
     background-color: #321952;
     height:18px;
-    width:1230px;
+    width:1240px;
     padding:10px;
 
 
