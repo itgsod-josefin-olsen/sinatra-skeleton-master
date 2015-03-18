@@ -28,18 +28,18 @@ p {
 
 #checkout {
     text-decoration: none;
-    float: right;
+    margin-left: 1030px;
+    margin-top: 55px;
 }
 
 #meny {
     background-color: #321952;
     height:18px;
     width:1240px;
-    padding:10px;
+    padding: 10px;
 }
 
 a {
-    padding-left: 30px;
     padding-bottom: 30px;
     color: white;
     font-family: times new roman;
