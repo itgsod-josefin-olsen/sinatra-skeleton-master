@@ -65,12 +65,11 @@ a {
     font-family: times new roman;
 }
 
-#text {
-    position: absolute;
-    color: black;
-    font-size: 20px;
-    font-family: times new roman;
-    padding-bottom: 200px;
-    float: none;
+#pic1 {
+    padding-top: 80px;
+    padding-left: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    border-image-source: url(wienerbröd.jpg);
 }
 
